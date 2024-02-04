@@ -59,7 +59,7 @@
             </font>
         </Text>
         <Label layoutX="425.0" layoutY="200.0" text="City" textFill="WHITE" />
-        <Button fx:id="submitButton" layoutX="424.0" layoutY="260.0" mnemonicParsing="false" onAction="#HaePressed" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: lightblue;" text="Submit" />
+        <Button fx:id="submitButton" layoutX="424.0" layoutY="260.0" mnemonicParsing="false" onAction="#SubmitPressed" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: lightblue;" text="Submit" />
         <Text id="humiditypercent" fx:id="humiditypercent" fill="WHITE" layoutX="412.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Humidity" wrappingWidth="175.64080810546875">
             <font>
                 <Font name="Wingdings 2" size="15.0" />

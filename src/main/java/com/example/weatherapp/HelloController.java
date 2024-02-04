@@ -134,7 +134,7 @@ public class HelloController {
     private Text weather;
 
     @FXML
-    void HaePressed(ActionEvent event) {
+    void SubmitPressed(ActionEvent event) {
         System.out.println("Submit pressed");
         apiCall(citytextfield.getText());
         System.out.println(citytextfield.getText());
